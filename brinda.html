@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brinda M S | Portfolio</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: #0f172a;
+      color: #e5e7eb;
+      overflow-x: hidden;
+    }
+
+    /* ===== HEADER ===== */
+    header {
+      background: linear-gradient(135deg, #2563eb, #1e40af);
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    header h1 { font-size: 40px; }
+    header p { font-size: 18px; opacity: 0.9; }
+
+    /* ===== NAV ===== */
+    nav {
+      background: #020617;
+      padding: 12px 0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #e5e7eb;
+      font-weight: 600;
+      padding: 8px 14px;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      background: rgba(255,255,255,0.1);
+      color: #60a5fa;
+    }
+
+    /* ===== SECTIONS (VISIBLE BY DEFAULT ✅) ===== */
+    section {
+      max-width: 1000px;
+      margin: 60px auto;
+      padding: 0 20px;
+    }
+
+    section h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      color: #60a5fa;
+    }
+
+    .about p { line-height: 1.7; }
+
+    /* ===== SKILLS ===== */
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      gap: 15px;
+    }
+
+    .skill {
+      background: #020617;
+      padding: 12px;
+      text-align: center;
+      border-radius: 10px;
+    }
+
+    /* ===== PROJECTS ===== */
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .project-card {
+      background: #020617;
+      padding: 20px;
+      border-radius: 14px;
+    }
+
+    /* ===== CERTIFICATION ===== */
+    #certifications p {
+      background: #020617;
+      padding: 14px;
+      border-radius: 10px;
+      display: inline-block;
+    }
+
+    /* ===== CONTACT ===== */
+    .contact p { margin-bottom: 10px; }
+
+    button {
+      padding: 10px 20px;
+      border: none;
+      background: #2563eb;
+      color: white;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #020617;
+      margin-top: 60px;
+      font-size: 14px;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Brinda M S</h1>
+  <p>Computer Science Engineering Student</p>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
